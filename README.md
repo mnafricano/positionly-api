@@ -160,7 +160,7 @@ curl https://api.positionly.com/v1/accounts/1/websites/1.json?access_token=<acce
 
 ### GET
 ```shell
-curl https://api.positionly.com/v1/accounts/1/websites/1/keywords.json?access_token=1eb14d5bd9d51af6f398ca2cd9b0fbcf
+curl https://api.positionly.com/v1/accounts/1/websites/1/keywords.json?access_token=<access_token>
 ```
 
 ### Response
@@ -191,7 +191,7 @@ curl https://api.positionly.com/v1/accounts/1/websites/1/keywords.json?access_to
 
 ### GET
 ```shell
-curl https://api.positionly.com/v1/accounts/1/websites/1/keywords/1.json?access_token=1eb14d5bd9d51af6f398ca2cd9b0fbcf
+curl https://api.positionly.com/v1/accounts/1/websites/1/keywords/1.json?access_token=<access_token>
 ```
 
 ### Response
@@ -215,7 +215,7 @@ curl https://api.positionly.com/v1/accounts/1/websites/1/keywords/1.json?access_
 
 ### GET
 ```shell
-curl https://api.positionly.com/v1/accounts/1/websites/1/groups.json?access_token=1eb14d5bd9d51af6f398ca2cd9b0fbcf
+curl https://api.positionly.com/v1/accounts/1/websites/1/groups.json?access_token=<access_token>
 ```
 
 ### Response
@@ -244,7 +244,7 @@ curl https://api.positionly.com/v1/accounts/1/websites/1/groups.json?access_toke
 
 ### GET
 ```shell
-curl https://api.positionly.com/v1/accounts/1/websites/1/groups/1.json?access_token=1eb14d5bd9d51af6f398ca2cd9b0fbcf
+curl https://api.positionly.com/v1/accounts/1/websites/1/groups/1.json?access_token=<access_token>
 ```
 
 ### Response
@@ -259,7 +259,14 @@ curl https://api.positionly.com/v1/accounts/1/websites/1/groups/1.json?access_to
         "name": "http://positionly.com",
         "title": "Positionly"
     },
-    "keywords": []
+    "keywords": [
+      {
+          "id": 1,
+          "group_id": null,
+          "name": "example",
+          "website_id": 1
+      }
+    ]
 }
 ```
 
@@ -314,7 +321,14 @@ curl https://api.positionly.com/v1/accounts/1/websites/1/notes/1.json?access_tok
         "name": "http://example.com",
         "title": "Example"
     },
-    "keywords": []
+    "keywords": [
+      {
+        "id": 1,
+        "group_id": null,
+        "name": "example",
+        "website_id": 1
+      }
+    ]
 }
 ```
 
