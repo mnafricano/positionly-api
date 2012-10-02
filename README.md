@@ -8,14 +8,14 @@
 
 This information is provided to you by Positionly.
 
-> Client id: 4b1b0c8888287b81d57bf5b5ec176521
-> Client secret: 6b5504ccf4b33f6b5fd108916b8fe50f
+* **Client ID**: de3be2752e8ae27a11cd96a6b0999b0f
+* **Client secret**: 8d87664221c09681c3d3bc283a50bf73
 
 ## Authorization
 
 ### POST
 ```shell
-curl -X POST -d 'grant_type=password&username=<your username>&password=<your password>&client_id=4b1b0c8888287b81d57bf5b5ec176521&client_secret=6b5504ccf4b33f6b5fd108916b8fe50f' 'https://auth.positionly.com/oauth2/token'
+curl -X POST -d 'grant_type=password&username=<your_username>&password=<your_password>&client_id=de3be2752e8ae27a11cd96a6b0999b0f&client_secret=8d87664221c09681c3d3bc283a50bf73' 'https://auth.positionly.com/oauth2/token'
 ```
 
 ### Response
@@ -32,7 +32,7 @@ curl -X POST -d 'grant_type=password&username=<your username>&password=<your pas
 
 ### POST
 ```shell
-curl -X POST -d 'grant_type=refresh_token&refresh_token=<your refresh token>&client_id=4b1b0c8888287b81d57bf5b5ec176521&client_secret=6b5504ccf4b33f6b5fd108916b8fe50f' 'https://auth.positionly.com/oauth2/token'
+curl -X POST -d 'grant_type=refresh_token&refresh_token=<your_refresh_token>&client_id=de3be2752e8ae27a11cd96a6b0999b0f&client_secret=8d87664221c09681c3d3bc283a50bf73' 'https://auth.positionly.com/oauth2/token'
 ```
 
 ### Response
@@ -51,7 +51,7 @@ curl -X POST -d 'grant_type=refresh_token&refresh_token=<your refresh token>&cli
 
 ### GET
 ```shell
-curl https://api.positionly.com/v1/accounts.json?access_token=1eb14d5bd9d51af6f398ca2cd9b0fbcf
+curl https://api.positionly.com/v1/accounts.json?access_token=<access_token>
 ```
 
 ### Response
@@ -70,7 +70,7 @@ curl https://api.positionly.com/v1/accounts.json?access_token=1eb14d5bd9d51af6f3
 
 ### GET
 ```shell
-curl https://api.positionly.com/v1/accounts/1.json?access_token=1eb14d5bd9d51af6f398ca2cd9b0fbcf
+curl https://api.positionly.com/v1/accounts/1.json?access_token=<access_token>
 ```
 
 ### Response
@@ -95,7 +95,7 @@ curl https://api.positionly.com/v1/accounts/1.json?access_token=1eb14d5bd9d51af6
 
 ### GET
 ```shell
-curl https://api.positionly.com/v1/accounts/1/websites.json?access_token=1eb14d5bd9d51af6f398ca2cd9b0fbcf
+curl https://api.positionly.com/v1/accounts/1/websites.json?access_token=<access_token>
 ```
 
 ### Response
@@ -114,7 +114,7 @@ curl https://api.positionly.com/v1/accounts/1/websites.json?access_token=1eb14d5
 
 ### GET
 ```shell
-curl https://api.positionly.com/v1/accounts/1/websites/1.json?access_token=1eb14d5bd9d51af6f398ca2cd9b0fbcf
+curl https://api.positionly.com/v1/accounts/1/websites/1.json?access_token=<access_token>
 ```
 
 ### Response
@@ -160,7 +160,7 @@ curl https://api.positionly.com/v1/accounts/1/websites/1.json?access_token=1eb14
 
 ### GET
 ```shell
-curl https://api.positionly.com/v1/accounts/1/websites/1/notes.json?access_token=1eb14d5bd9d51af6f398ca2cd9b0fbcf
+curl https://api.positionly.com/v1/accounts/1/websites/1/notes.json?access_token=<access_token>
 ```
 
 ### Response
@@ -189,7 +189,7 @@ curl https://api.positionly.com/v1/accounts/1/websites/1/notes.json?access_token
 
 ### GET
 ```shell
-curl https://api.positionly.com/v1/accounts/1/websites/1/notes/1.json?access_token=1eb14d5bd9d51af6f398ca2cd9b0fbcf
+curl https://api.positionly.com/v1/accounts/1/websites/1/notes/1.json?access_token=<access_token>
 ```
 
 ### Response
@@ -215,7 +215,7 @@ curl https://api.positionly.com/v1/accounts/1/websites/1/notes/1.json?access_tok
 
 ### GET
 ```shell
-curl https://api.positionly.com/v1/accounts/1/websites/1/engines/1/keywords/1/positions.json?access_token=1eb14d5bd9d51af6f398ca2cd9b0fbcf&date_from=2012-08-01&date_to=2012-08-30
+curl https://api.positionly.com/v1/accounts/1/websites/1/engines/1/keywords/1/positions.json?access_token=<access_token>&date_from=2012-08-01&date_to=2012-08-30
 ```
 
 ### Response
@@ -248,7 +248,7 @@ curl https://api.positionly.com/v1/accounts/1/websites/1/engines/1/keywords/1/po
 
 ### GET
 ```shell
-curl https://api.positionly.com/v1/user.json?access_token=1eb14d5bd9d51af6f398ca2cd9b0fbcf
+curl https://api.positionly.com/v1/user.json?access_token=<access_token>
 ```
 
 ### Response
