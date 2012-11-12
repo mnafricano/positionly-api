@@ -74,6 +74,18 @@ curl https://api.positionly.com/v1/accounts/<account id>/websites/<website id>.j
 curl -X POST -d @examples/website.json https://api.positionly.com/v1/accounts/<account id>/websites.json
 ```
 
+### Parameters
+
+    * scheme
+    * name
+    * title
+
+    * website_engines_attributes": [
+        { "engine_id": 31 }
+    ]
+}
+
+
 ### Response
 ```json
 {
