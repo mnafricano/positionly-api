@@ -1,0 +1,8 @@
+{
+  "scheme": "http",
+  "name": "example.com",
+  "title": "Example",
+  "website_engines_attributes": [
+    { "engine_id": 31 }
+  ]
+}
