@@ -52,7 +52,7 @@ curl https://api.positionly.com/v1/accounts/<account id>/websites/<website id>/k
 
 ### POST
 ```shell
-curl -X POST -d @examples/keyword.json 'http://api.positionly.com/v1/accounts/<account id>/websites/<website id>/keywords.json'
+curl -X POST -d @examples/keyword.json https://api.positionly.com/v1/accounts/<account id>/websites/<website id>/keywords.json
 ```
 
 ### Response
@@ -79,7 +79,7 @@ curl -X POST -d @examples/keyword.json 'http://api.positionly.com/v1/accounts/<a
 
 ### DELETE
 ```shell
-curl -X DELETE 'http://api.positionly.dev/v1/accounts/<account id>/websites/<website id>/keywords/<keyword id>.json
+curl -X DELETE 'https://api.positionly.dev/v1/accounts/<account id>/websites/<website id>/keywords/<keyword id>.json
 ```
 
 ### Response

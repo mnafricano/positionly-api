@@ -71,7 +71,7 @@ curl https://api.positionly.com/v1/accounts/<account id>/websites/<website id>.j
 
 ### POST
 ```shell
-curl -X POST -d @examples/website.json 'http://api.positionly.com/v1/accounts/<account id>/websites.json'
+curl -X POST -d @examples/website.json https://api.positionly.com/v1/accounts/<account id>/websites.json
 ```
 
 ### Response
@@ -100,7 +100,7 @@ curl -X POST -d @examples/website.json 'http://api.positionly.com/v1/accounts/<a
 
 ### DELETE
 ```shell
-curl -X DELETE 'http://api.positionly.dev/v1/accounts/<account id>/websites/<website id>.json
+curl -X DELETE https://api.positionly.dev/v1/accounts/<account id>/websites/<website id>.json
 ```
 
 ### Response
