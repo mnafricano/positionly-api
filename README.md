@@ -2,7 +2,6 @@
 
 * Please note that this is a beta version of our API
 * Methods, keys, and structure might change before the API hits a stable branch
-* The current version of the API is **read-only**
 
 ## OAuth2
 
