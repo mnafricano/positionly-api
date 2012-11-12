@@ -48,11 +48,11 @@ curl -X POST -d 'grant_type=refresh_token&refresh_token=<your_refresh_token>&cli
 ## Request examples
 
 ```shell
-curl -H 'Authorization: <access token>' 'https://auth.positionly.com/v1/...'
+curl -H 'Authorization: <access token>' 'https://api.positionly.com/v1/...'
 ```
 
 or
 
 ```shell
-curl 'https://auth.positionly.com/v1/...?access_token=<access token>'
+curl 'https://api.positionly.com/v1/...?access_token=<access token>'
 ```
