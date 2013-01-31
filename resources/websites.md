@@ -121,3 +121,29 @@ curl -X DELETE https://api.positionly.dev/v1/accounts/<account id>/websites/<web
     "status": "ok"
 }
 ```
+
+## Website Positions
+
+### GET
+```shell
+curl https://api.positionly.com/v1/accounts/<account id>/websites/<website id>/engines/<engine id>/positions.json
+```
+
+### Response
+```json
+{
+    "id": 11,
+    "account_id": 1,
+    "name": "http://positionly.com",
+    "title": "Example",
+    "positions": {
+        "2013-01-24": 66.4,
+        "2013-01-25": 50,
+        "2013-01-26": 72.6,
+        "2013-01-27": 38.9,
+        "2013-01-28": 54,
+        "2013-01-29": 62.7,
+        "2013-01-30": 48
+    }
+}
+```
